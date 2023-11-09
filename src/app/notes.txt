@@ -1,0 +1,17 @@
+----Think and Do code-----
+
+component 
+directive
+pipe
+service
+
+
+component(Html+style+Business logic) we have to create first 
+a. which name we have to give for component
+b. which template(Html) we have to use
+c. what kind of style we have to apply
+
+we have to write business logic under class
+
+after that registration
+we have to register under app.module folder
