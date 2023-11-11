@@ -5,4 +5,7 @@ import { Component } from '@angular/core';
   templateUrl: './testif.component.html',
   styleUrls: ['./testif.component.css'],
 })
-export class testifcomponent {}
+export class testifcomponent {
+  my answer ='';
+  btnclick (question : HTMLParagraphElement)
+}
