@@ -2,17 +2,12 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
-import { ChildrendataComponent } from './childrendata/childrendata.component';
-import { testcomponent } from './test.component';
-import { testifcomponent } from './testif.component';
+
+// import { testComponent } from './test/test.component';
+// import { CustomerSignupComponent } from './customer-signup/customer-signup.component';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    ChildrendataComponent,
-    testcomponent,
-    testifcomponent,
-  ],
+  declarations: [AppComponent],
   imports: [BrowserModule],
   providers: [],
   bootstrap: [AppComponent],
