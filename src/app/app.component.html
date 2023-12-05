@@ -49,7 +49,33 @@ YOU have to decorate the angular element as html element -->
             </div>
           </div>
         </li>
+
+        <li class="list-group-item p-4 border-bottom border-info">
+          <h3>
+            Handling the Event Data binding and Property Data binding together
+            in same element
+          </h3>
+        </li>
       </ul>
+    </div>
+  </div>
+</form>
+<form>
+  <h6>Angular with (ngModelChange) and [ngModel]</h6>
+  <div class="row mt-4">
+    <div class="col-md-6">
+      <!-- text  that will be in string -->
+      <input
+        placeholder="Location"
+        class="form-control"
+        type="text"
+        name="cusJohnLocation"
+        [ngModel]="cusJohnLocation"
+        (ngModelChange)="evtCusLocationModelChange($event)"
+      />
+    </div>
+    <div class="col-md-6">
+      <p class="text-primary mt-auto">Value is :{{ cusJohnLocation }}</p>
     </div>
   </div>
 </form>

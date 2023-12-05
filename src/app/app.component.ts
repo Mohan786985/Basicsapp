@@ -31,4 +31,13 @@ export class AppComponent {
     console.log('Button is firing');
     window.alert('Message is '.concat(this.Project));
   }
+
+  cusJohnLocation = 'New yark';
+
+  evtCusLocationModelChange($event: string) {
+    //parseInt($event)
+
+    /*Trying to update the Customer Location By ngModel*/
+    this.cusJohnLocation = $event;
+  }
 }
